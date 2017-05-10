@@ -8,6 +8,7 @@
             <td ng-bind-html-unsafe="record[headers[$index]]">{{record.id}}</td>
             <td ng-bind-html-unsafe="record[headers[$index]]">{{record['x-coord']}}</td>
             <td ng-bind-html-unsafe="record[headers[$index]]">{{record['y-coord']}}</td>
+            <td ng-bind-html-unsafe="record[headers[$index]]">{{record['tags'][0]}}</td>
             <td ng-bind-html-unsafe="record[headers[$index]]">{{record.status}}</td>
         </tr>
     </table>
